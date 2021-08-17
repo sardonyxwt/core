@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "moduleResolution": "node",
+        "jsx": "react-jsx",
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "declaration": true,
+        "declarationDir": "lib/types/",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "@source/*": [
+                "./src/*"
+            ],
+            "@source": [
+                "./src/index.ts"
+            ]
+        }
+    }
+}
